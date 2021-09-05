@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
+
+@font-face {
+
+    font-family: yekan;
+
+    src: url("../fonts/yekan/Yekan.eot") format("eot");
+
+    src: url("../fonts/yekan/Yekan.woff") format("woff");
+
+    src : url("../fonts/yekan/Yekan.ttf") format("ttf");
+
+    font-weight: 100;
+
+    font-style: normal;
+
+}
+
+
+* ,
+*::after,
+*::before
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background: #323232;
+    font-family: yekan;
+}a
+{
+    text-decoration: none !important;
+}
+
+/* -----------------------text color------------------------------*/
+.icons , .icons:hover
+{
+    color: #FC5130FF;
+}
+
+.myText
+{
+    color: #aa2612;
+}
+
+/* -------------------------------------------------------------------------------*/
+.mainBoxCard , .addBox
+{
+    min-height: 90vh;
+    width: 100%;
+    transform: translateY(5%);
+    border-radius: 10px;
+    background:#191919 ;
+    margin: auto;
+}
+.parent
+{
+    min-height: 90vh;
+    width: 100%;
+}
+.mainBoxCard
+{
+    top: 0;
+}
+.addBox
+{
+    top: 100%;
+}
+.menuIcon
+{
+    right: 5%;
+}
+.userIcon
+{
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.contactPic
+{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.contactBox ,.searchBox
+{
+    width: 90%;
+    height: 50px;
+    line-height: 50px;
+    background: #323232;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+
+/*-------------------------------modal style-----------------------------*/
+.modal .modal-content
+{
+    background-color: transparent;
+    border: none;
+    width: 90%;
+    min-height: 80%;
+    z-index:9999999999999999999999999999999999999999999999;
+    margin: 0 auto;
+}
+
+.modal .close
+{
+    font-size: 40px;
+    color: #8e8e8e;
+    opacity: .9;
+    z-index: 999999;
+    text-shadow: none;
+    margin-right: 5px;
+    margin-top: 0px;
+    /*transform: translate(0,-35%);*/
+}
+.modal .close:hover
+{
+    color: #fc5130;
+}
+
+.modal .modal-body img
+{
+    height: 65%;
+    margin-right: 3%;
+}
+.modal .modal-dialog
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+@media (min-width: 576px) {
+    .modal-dialog
+    {
+        max-width: 100%;
+    }
+}
+.modal .modal-dialog .modal-body
+{
+    margin-top: 0;
+    padding: 0;
+}
+.modal
+{
+    margin: 0;
+    padding: 0 !important;
+}
+.modal .addPic
+{
+    position: absolute;
+    top: 57%;
+}
+.modal .typePic
+{
+    position: absolute;
+    top: 40%;
+    margin-right: 20px;
+}
+
+
+.modalBoxCard
+{
+    min-height: 90vh;
+    width: 100%;
+    border-radius: 10px;
+    transform: translateY(5%);
+    background: #111111;
+}
+
+.infoBox
+{
+    background: #323232;
+    margin:10px;
+    border-radius: 10px;
+    padding:10px 10% 10px;
+}
+.infos
+{
+    border-bottom: 1px solid rgba(73, 73, 73, 0.4);
+}
+
+
+.form-control
+{
+    border: none ;
+    border-bottom: gray solid 1px;
+    background: transparent;
+    border-radius: 0;
+    color: #fff;
+}
+.form-edit
+{
+    width: 50vw;
+    margin-bottom: 5px;
+}
+.form-edit:focus
+{
+    color: #fff;
+    background-color:transparent ;
+    border-color: transparent;
+    border-bottom:  gray solid 1px;
+    outline: 0;
+    box-shadow: none;
+}
+.form-group .form-control:focus {
+    color: #fff;
+    background-color:transparent ;
+    border-color: transparent;
+    border-bottom:  gray solid 1px;
+    outline: 0;
+    box-shadow: none;
+}
+
+a
+{
+    color: #fff;
+}
+a:hover
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*-------------------------btn style----------------------------*/
+.form-group .btn
+{
+    width: 30%;
+    height: 50px;
+    line-height: 40px;
+    margin:0 10px 0;
+    cursor: pointer;
+}
+
+.form-group .btn-submit
+{
+    color: #fff;
+    background: linear-gradient(to right,#e0040e,#fc5130);
+    border-color: #FC5130FF;
+}
+.btn-submit:hover {
+    animation: effect2 2s linear infinite;
+    cursor: pointer;
+}
+
+.form-group .btn-sign
+{
+    background:linear-gradient(to right,#323232, #454545) ;
+    border-radius: 5px;
+    color: #fff;
+}
+.btn-sign:hover {
+    animation: effect2 2s linear infinite;
+    cursor: pointer;
+}
+
+.form-group .btn-cancel
+{
+    color: #fff;
+    border-color: #323232;
+}
+.btn-cancel:hover {
+    color: #fff;
+    background-color: #1f1f1f;
+    border-color: #323232;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.inputBox
+{
+    background: rgba(50, 50, 50, 0.8);
+    border-radius:10px;
+    padding: 8px;
+}
+
+
+.inputBox>p , .delInput
+{
+    cursor: pointer;
+}
+
+
+
+
+
+
+a
+{
+    text-decoration: none !important;
+}
+
+.parent
+{
+    height: 90vh;
+    width: 100%;
+}
+.addBox
+{
+    top: 100%;
+}
+.menuIcon
+{
+    right: 5%;
+}
+
+
+
+.labelPic
+{
+    width: 100px;
+    height: 100px;
+    line-height: 110px;
+    border-radius: 50%;
+    background: #ff253a;
+    margin: auto;
+}
+
+.labelPic > i
+{
+    font-size: 25px;
+}
+
+.picture
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#imageVisitor
+{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    transform: translateY(-7%);
+}
+
+/*--------------animation----------------*/
+@keyframes effect2 {
+    from
+    {
+        background-position: 100% center;
+    }
+    to
+    {
+        background-position: -70000% center;
+    }
+}
